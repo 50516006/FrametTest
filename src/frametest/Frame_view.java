@@ -4,6 +4,7 @@ import java.awt.FlowLayout;
 import java.awt.Frame;
 import java.awt.GraphicsConfiguration;
 import java.awt.HeadlessException;
+import java.awt.Label;
 import java.awt.TextField;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -32,9 +33,13 @@ public class Frame_view extends Frame implements ActionListener,WindowListener
 		add(text2);
 		add(button1);
 		button1.addActionListener(this);
+        add(new Label("加算"));
 		add(text3);
+        add(new Label("減算"));
 		add(text4);
+        add(new Label("乗算"));
 		add(text5);
+        add(new Label("除算"));
 		add(text6);
 		// TODO 自動生成されたコンストラクター・スタブ
 	}
